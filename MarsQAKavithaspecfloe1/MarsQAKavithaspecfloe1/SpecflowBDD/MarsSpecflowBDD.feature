@@ -52,11 +52,11 @@ Scenario:1) Login to Mars portal
 	Then i should be able to see my added certifications details
 
 	Scenario:10) Edit certifications record in my profile page
-	Given Logged in to Mars portal and navigate to certifications Edit icon
+	Given I Logged in to Mars portal and navigate certifications button
 	When I edit my certifications record
 	Then i should be able to see my edit certifications record 
 
 	Scenario:11) Delete certifications record in my profile page
-	Given I Logged in to Mars portal and navigate certifications delete icon
+	Given I Logged in to Mars portal and navigate certifications button
 	When I choose certifications record for delete
 	Then Certifications record should be deleted successfully

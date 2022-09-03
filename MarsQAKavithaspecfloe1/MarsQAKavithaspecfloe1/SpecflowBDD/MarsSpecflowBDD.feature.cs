@@ -365,7 +365,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 55
- testRunner.Given("Logged in to Mars portal and navigate to certifications Edit icon", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I Logged in to Mars portal and navigate certifications button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 56
  testRunner.When("I edit my certifications record", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
@@ -395,7 +395,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 60
- testRunner.Given("I Logged in to Mars portal and navigate certifications delete icon", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I Logged in to Mars portal and navigate certifications button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 61
  testRunner.When("I choose certifications record for delete", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
